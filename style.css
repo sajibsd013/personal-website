@@ -1,0 +1,83 @@
+
+.btn-primary{
+    background-image: linear-gradient( #EC4F8F, #ED4B72);
+    border: none;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+header{
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#biograpy{
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#latest-work{
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#latest-work img:hover{
+    box-shadow: 0 0 10px lightgray;
+}
+
+@media (min-width: 1224px){
+    .px-md-5 {
+        padding-right: 10rem!important;
+        padding-left: 10rem!important;
+    }
+}
+@media (max-width: 768px){
+    .px-md-5 {
+        padding-right: 1rem!important;
+        padding-left: 1rem!important;
+    }
+}
+#contact{
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-frame{
+    position: relative;
+}
+
+.photo-detail {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: none!important;
+    background-color: rgba(0, 32, 212, 0.5);
+}
+.photo-detail a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 32px;
+    color: honeydew;
+    background-color: rgb(236, 154, 1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10 lightgray;
+}
+.photo-frame:hover .photo-detail{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-frame:hover .photo{
+    background-color: goldenrod;
+    opacity: .5;
+}
